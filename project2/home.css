@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    background-image:  url('home.jpg');
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.menu{
+    width: 400px;
+    height: 70px;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+
+}
+.logo{
+    margin-top: 2px;
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+ul{
+   margin-left: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 45px;
+    margin-top: -80px;
+    font-size: 18px;
+    font-size: medium; 
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight: bolder;
+    padding-inline-start: 1px;
+    padding-inline-end: 1px;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+.text
+{
+    width: 90%;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text a{
+    display: inline-block;
+    margin-top: 30px;
+    border: 1.5px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.text a:hover{
+    border: 1.5px solid orangered;
+    background: orangered;
+    transition: 0.6s;
+}
+
+/*------COURSE-----*/
+.course{
+width: 75%;
+margin: auto;
+text-align: center;
+padding-top: 70px;
+}
+h1{
+    font-size: 32px;
+}
+p{
+    font-size: 20px;
+}
+.row{
+    margin-top: 5%;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+
+}
+.course-col{
+    flex-basis: 30%;
+    background: rgb(235, 164, 187);;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+.course-col h2{
+    text-align: center;
+    font-weight: 15px;
+    margin: 5px;
+}
+.course-col:hover{
+    box-shadow:0 0 20px 0px rgb(73, 73, 73);
+}
+
+/*------CAMPUS----*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.campus-col{
+flex-basis: 32%;
+
+margin-bottom: 30px;
+position: relative;
+}
+.campus-col img{
+    width: 100%;
+    border-radius: 20px;
+}
+.loc{
+    background: transparent;
+    height: 99%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+.loc:hover{
+    background: rgba(700,0,0,0.5);
+}
+.loc h2{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 300px;
+    left: 50%;
+    opacity: 0;
+    transition: 0.6s;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loc h2:hover{
+opacity: 1;
+padding-top: 310px;
+}
+/* -----Facilities--*/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 17px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1200;
+    text-align: left;
+}
+/*---testimonials---*/
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-left:10px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.testimonials-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(235, 164, 187);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.testimonials-col img{
+    height: 60px;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonials-col p{
+    padding: 0;
+
+}
+.testimonials-col h3{
+   margin-top: 20px;
+   text-align: left;
+}
+/*---call*/
+.call{
+    margin: 70px;
+    width: 100%;
+    margin-left: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(contact.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.call h1{
+    color:whitesmoke;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.text1 a{
+    display: inline-block;
+    margin-top: 10px;
+    border: 1.5px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.text1 a:hover{
+    border: 1.5px solid orangered;
+    background: orangered;
+    transition: 0.6s;
+}
+/*----Footer--*/
+.about{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.about h2{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.icons a{
+    text-decoration: none;
+    color:black;
+ }
+
+ .icons ion-icon{
+    color:black;
+    font-size: 25px;
+    font-weight: 800;
+   padding-left: 10px;
+   margin-top: 30px;
+ }
